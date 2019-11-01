@@ -30,7 +30,8 @@ def photo_cam(path):
         camera.hflip = False
         camera.vflip = False
         camera.crop = (0.0, 0.0, 1.0, 1.0)
-
+        
+        #camera.stop_preview()
         camera.capture(path)
 
         #camera.stop_preview()
